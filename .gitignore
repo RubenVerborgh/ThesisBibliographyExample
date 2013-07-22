@@ -32,3 +32,5 @@
 *.vrb
 *.xdy
 *.tdo
+*.bcf
+*.run.xml

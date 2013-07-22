@@ -4,6 +4,9 @@
 \usepackage[backend=biber,refsection=chapter]{biblatex}
 \addbibresource{references.bib}
 
+\DeclareBibliographyCategory{onlyfullcite}
+\newcommand\onlyfullcite[1]{\fullcite{#1}\addtocategory{onlyfullcite}{#1}}
+
 \begin{document}
 
 \include{chapter1}
